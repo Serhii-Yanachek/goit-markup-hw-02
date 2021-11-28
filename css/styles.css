@@ -1,0 +1,169 @@
+/* variables */
+:root {
+  /* colors */
+    --theme-color: #2196f3;
+    --background-theme-color: #2f303a;
+    --text-primary: #212121;
+    --text-secondary: #757575;
+    --footer-link-color: rgba(255, 255, 255, 0, 6);
+    /* Fonts */
+    --primary-font: 'Roboto';
+    --logotype-font: 'Raleway';
+}
+
+/* inheritance */
+body {
+    background-color: #e5e5e5;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* reset styles */
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ==================== Main page starts here ==================== */
+
+/* ===== header starts here ===== */
+
+/* "theme-logo" and "logo-text" used in header and footer */
+.theme-logo {
+    color: var(--theme-color);
+}
+
+.logo-text {
+    font-family: var(--logotype-font);
+    font-size: 26px;
+    line-height: 1.1;
+    color: var(--text-primary);
+}
+
+/* nav link */
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--text-primary);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--theme-color);
+}
+
+.mail-phone-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--text-secondary);
+}
+
+.mail-phone-link:hover,
+.mail-phone-link:focus {
+    color: var(--theme-color);
+}
+
+/* hero-box */
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    text-align: center;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.hero-button {
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: bold
+    font-size: 16px;
+    line-height: 1.8;
+    color: #ffffff;
+}
+
+/* ===== header ends here ===== */
+
+/*===== main section starts here =====*/
+
+/* advantages-section */
+.advantages-heading {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--primary-font);
+}
+
+.advantages-description {
+    font-size: 14px;
+    line-height: 1.7;
+
+    letter-spacing: 0.03em;
+
+    color: var(--text-secondary);
+}
+
+/* exemple section  */
+.exemple-section-heading {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--text-primary);
+}
+
+/* our team section */
+.our-team-heading {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--text-primary)
+}
+
+.our-team-function {
+    font-size: 16px;
+    line-height: 1.1;
+
+    letter-spacing: 0.03em;
+
+    color: var(--text-secondary)
+}
+/*===== main section ends here =====*/
+
+/*===== footer starts here =====*/
+.adress-link {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--theme-color);
+}
+
+/*===== footer ends here =====*/
+
+
+/* ==================== Main page ends here ==================== */
