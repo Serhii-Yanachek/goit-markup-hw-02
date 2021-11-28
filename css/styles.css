@@ -199,6 +199,7 @@ a {
 .projects-section-class {
     font-size: 16px;
     line-height: 1.8;
+    
     letter-spacing: 0.03em;
 
     color: var(--text-secondary);
