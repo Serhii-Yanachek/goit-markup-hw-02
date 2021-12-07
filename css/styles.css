@@ -6,22 +6,21 @@
   --text-primary: #212121;
   --text-secondary: #757575;
   --footer-link-color: rgba(255, 255, 255, 0.6);
+  --primary-white-color: #e5e5e5;
+  --primary-text-color: #212121;
   /* Fonts */
   --primary-font: 'Roboto';
   --logotype-font: 'Raleway';
+  /* colors */
 }
 
 /* inheritance */
 body {
-  /* background-color: #e5e5e5;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif; */
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
 
